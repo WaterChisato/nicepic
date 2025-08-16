@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>动漫美图｜水喝千束的博客</title>
+    <style>
+        /* 全局样式 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+        
+        /* 标题区域 */
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 30px 0;
+            background: linear-gradient(135deg, #6e8efb, #a777e3);
+            color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+        }
+        
+        /* 图片展示区域 */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            aspect-ratio: 1 / 1;
+        }
+        
+        .gallery-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+        
+        .gallery-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+        
+        .gallery-item:hover .gallery-img {
+            transform: scale(1.05);
+        }
+        
+        /* 页脚 */
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            .gallery {
+                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .gallery {
+                grid-template-columns: 1fr;
+            }
+            
+            body {
+                padding: 10px;
+            }
+        }
+    </style>
+    <!-- 基础PNG图标 -->
+<link rel="icon" href="https://pic.xn--kiv.fun/uploads/2025/08/15/14/689ed375b344a.png" type="image/png" sizes="32x32">
+<!-- 高清设备适配 -->
+<link rel="icon" href="https://pic.xn--kiv.fun/uploads/2025/08/15/14/689ed375b344a.png" sizes="192x192">
+<!-- Apple设备专用 -->
+<link rel="apple-touch-icon" href="https://pic.xn--kiv.fun/uploads/2025/08/15/14/689ed375b344a.png">
+
+</head>
+<body>
+    <div class="header">
+        <h1>这是美图网页哦～</h1>
+        <p>精选优质图片展示，不分前后顺序，不分动漫</p>
+        <p>手机长按（电脑右键）（客户端除外）图片可以下载和预览图片哦</p>
+        <p>技术支持：pic.星.fun(云团子公益图床)</p>
+        <p>此网站持续更新，欢迎关注呀(●´∀｀●)</p>
+    </div>
+    
+    <div class="gallery">
+        <!-- 图片1 -->
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/15/21/689f34e47b741.jpg" alt="美图1" class="gallery-img">
+        </div>
+        
+        <!-- 图片2 -->
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/15/21/689f35c063bd4.jpg" alt="美图2" class="gallery-img">
+        </div>
+        
+        <!-- 图片3 -->
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/15/21/689f35c996b1b.jpg" alt="美图3" class="gallery-img">
+        </div>
+        
+        <!-- 图片4 -->
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/15/21/689f35f6aafa2.jpg" alt="美图4" class="gallery-img">
+        </div>
+        
+        <!-- 图片5 -->
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/15/21/689f35fbec1bd.jpg" alt="美图5" class="gallery-img">
+        </div>
+        
+        <!-- 图片6 -->
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/15/21/689f36041fee3.jpg" alt="美图6" class="gallery-img">
+        </div>
+        
+        <!-- 图片7 -->
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/15/21/689f360d04537.jpg" alt="美图7" class="gallery-img">
+        </div>
+        
+        <!-- 图片8 -->
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/15/21/689f3616d8317.jpg" alt="美图8" class="gallery-img">
+        </div>
+        
+        <!-- 图片9 -->
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/15/21/689f363eb3239.jpg" alt="美图9" class="gallery-img">
+        </div>
+        
+        <!-- 图片10 -->
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/15/21/689f364342da1.jpg" alt="美图10" class="gallery-img">
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/16/15/68a03a346695a.jpg" alt="美图" class="gallery-img">
+        </div>
+           <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/15/23/689f4d647de46.jpg" alt="美图22" class="gallery-img">
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/16/15/68a039d108ee0.jpg" alt="美图" class="gallery-img">
+        </div>
+        
+           <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/16/15/68a03a1d92745.jpg" alt="美图22" class="gallery-img">
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/16/15/68a03a365bee4.jpg" alt="美图" class="gallery-img">
+        </div>
+        
+        <!-- 图片11 -->
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/15/21/689f36475e18d.jpg" alt="美图11" class="gallery-img">
+        </div>
+        
+        <!-- 图片12 -->
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/15/21/689f36510db64.jpg" alt="美图12" class="gallery-img">
+        </div>
+        
+        <!-- 图片13 -->
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/15/21/689f365d95eef.jpg" alt="美图13" class="gallery-img">
+        </div>
+        
+        <!-- 图片14 -->
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/15/21/689f36872a499.jpg" alt="美图14" class="gallery-img">
+        </div>
+        
+        <!-- 图片15 -->
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/15/21/689f3694c6014.jpg" alt="美图15" class="gallery-img">
+        </div>
+        
+        <!-- 图片16 -->
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/15/21/689f36a18934a.jpg" alt="美图16" class="gallery-img">
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/16/15/68a039eaa0009.jpg" alt="美图" class="gallery-img">
+        </div>
+        
+        
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/15/23/689f4c4c083a9.jpg" alt="美图22" class="gallery-img">
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/16/15/68a0398059027.jpg" alt="美图" class="gallery-img">
+        </div>
+        
+        <!-- 图片17 -->
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/15/21/689f36b0690a7.jpg" alt="美图17" class="gallery-img">
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/15/23/689f4bdc1fd6f.jpg" alt="美图22" class="gallery-img">
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/15/23/689f4d518e28a.jpg" alt="美图22" class="gallery-img">
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/15/23/689f4c64e5b95.jpg" alt="美图22" class="gallery-img">
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/15/23/689f4cf46548b.jpg" alt="美图22" class="gallery-img">
+        </div>
+        <!-- 图片18 -->
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/15/21/689f36c3136c3.jpg" alt="美图18" class="gallery-img">
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/16/15/68a039ce1bbbe.jpg" alt="美图" class="gallery-img">
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/16/15/68a039c0808e9.jpg" alt="美图" class="gallery-img">
+        </div>
+        <!-- 图片19 -->
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/15/21/689f36fb28ff6.jpg" alt="美图19" class="gallery-img">
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/16/15/68a039ec69b8c.jpg" alt="美图" class="gallery-img">
+        </div>
+        
+        <!-- 图片20 -->
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/15/21/689f370cc8997.jpg" alt="美图20" class="gallery-img">
+        </div>
+        
+        <!-- 图片21 -->
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/15/21/689f371c0f119.jpg" alt="美图21" class="gallery-img">
+        </div>
+        
+        <!-- 图片22 -->
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/15/21/689f37bee0bf2.jpg" alt="美图22" class="gallery-img">
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://github.com/WaterChisato/picx-images-hosting/raw/master/WaterChisato/Image_1755074721238.32iadxagss.jpg" alt="美图美图" class="gallery-img">
+        </div>
+        
+        <!-- 图片23 -->
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/15/21/689f395dee13a.jpg" alt="美图23" class="gallery-img">
+        </div>
+        
+    
+    <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/15/22/689f47774f297.jpg" alt="美图22" class="gallery-img">
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/15/22/689f47e04852e.jpg" alt="美图22" class="gallery-img">
+        </div>
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/15/23/689f4d74e899e.jpg" alt="美图22" class="gallery-img">
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/15/23/689f4b9b14e55.jpg" alt="美图22" class="gallery-img">
+        </div>
+        
+         <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/15/23/689f4b7a5957f.jpg" alt="美图18" class="gallery-img">
+        </div>
+        
+           <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/15/23/689f4bcc348cc.jpg" alt="美图22" class="gallery-img">
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/16/15/68a039a59e8b2.jpg" alt="美图" class="gallery-img">
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/16/15/68a039e797e36.jpg" alt="美图" class="gallery-img">
+        </div>
+           <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/16/15/68a03a3255cda.jpg" alt="美图22" class="gallery-img">
+        </div>
+           <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/16/15/68a0394a9a2a0.jpg" alt="美图22" class="gallery-img">
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/15/23/689f4c061033b.jpg" alt="美图22" class="gallery-img">
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/16/15/68a03a133136c.png" alt="千束皮肤" class="gallery-img">
+        </div>
+        
+           <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/16/15/68a0395fe13bf.jpg" alt="美图22" class="gallery-img">
+        </div>
+        
+        <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/16/15/68a03a3563490.jpg" alt="美图" class="gallery-img">
+        </div>
+           <div class="gallery-item">
+            <img src="https://pic.xn--kiv.fun/uploads/2025/08/16/15/68a0395e1ddf1.jpg" alt="美图22" class="gallery-img">
+        </div>
+    <div class="footer">
+        <p>© 2025 精美美图展示 | 所有图片均来自图床API</p>
+    </div>
+</body>
+</html>
